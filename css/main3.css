@@ -1,0 +1,38 @@
+/* Comments */
+/*
+Version 2.0;
+last modified 1/10/22
+Author: Dennis B;
+Email:: benlotd2@wwu.edu
+
+Table of Content
+1. Body
+2. Wrapper
+3. Header
+4. navigation
+5. banner image 
+6. main
+7. footer 
+*/
+/*-multiple-lines-comment-*/
+body {
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+
+nav {
+  text-align: center;
+}
+nav a {
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.banner {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
